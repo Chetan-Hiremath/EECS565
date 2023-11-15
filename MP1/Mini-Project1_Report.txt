@@ -1,0 +1,63 @@
+Here are the results of the terminal:
+
+Encrypted Message: MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX
+Key Length: 2
+First Word Length: 6
+Key: KS
+Decrypted Message: CAESARSWIFEMUSTBEABOVESUSPICION
+Time to decrypt the message in seconds: 0.005924485999999993 
+
+Encrypted Message: PSPDYLOAFSGFREQKKPOERNIYVSDZSUOVGXSRRIPWERDIPCFSDIQZIASEJVCGXAYBGYXFPSREKFMEXEBIYDGFKREOWGXEQSXSKXGYRRRVMEKFFIPIWJSKFDJMBGCC
+Key Length: 3
+First Word Length: 7
+Key: KEY
+Decrypted Message: FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES
+Time to decrypt the message in seconds: 0.009673517999999992 
+
+Encrypted Message: MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA
+Key Length: 4
+First Word Length: 10
+Key: IWKD
+Decrypted Message: EXPERIENCEISTHETEACHEROFALLTHINGS
+Time to decrypt the message in seconds: 0.039277715000000005 
+
+Encrypted Message: SQLIMXEEKSXMDOSBITOTYVECRDXSCRURZYPOHRG
+Key Length: 5
+First Word Length: 11
+Key: KELCE
+Decrypted Message: IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+Time to decrypt the message in seconds: 0.11249255500000002 
+
+Encrypted Message: LDWMEKPOPSWNOAVBIDHIPCEWAETYRVOAUPSINOVDIEDHCDSELHCCPVHRPOHZUSERSFS
+Key Length: 6
+First Word Length: 9
+Key: HACKER
+Decrypted Message: EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL
+Time to decrypt the message in seconds: 0.43532986999999995 
+
+Encrypted Message: VVVLZWWPBWHZDKBTXLDCGOTGTGRWAQWZSDHEMXLBELUMO
+Key Length: 7
+First Word Length: 13
+Key: NICHOLS
+Decrypted Message: INTELLECTUALSSOLVEPROBLEMSGENIUSESPREVENTTHEM
+Time to decrypt the message in seconds: 0.24790419799999996 
+
+
+This mini-project tells us to create a simple Vigenere Cipher that uses the brute force password cracker to decrypt 6 messages. 
+The program decrypts the messages and records the decrypted time for one message in seconds. Here are the decrypted messages.
+MSOKKJCOSXOEEKDTOSLGFWCMCHSUSGX -> CAESARSWIFEMUSTBEABOVESUSPICION
+PSPDYLOAFSGFREQKKPOERNIYVSDZSUOVGXSRRIPWERDIPCFSDIQZIASEJVCGXAYBGYXFPSREKFMEXEBIYDGFKREOWGXEQSXSKXGYRRRVMEKFFIPIWJSKFDJMBGCC -> FORTUNEWHICHHASAGREATDEALOFPOWERINOTHERMATTERSBUTESPECIALLYINWARCANBRINGABOUTGREATCHANGESINASITUATIONTHROUGHVERYSLIGHTFORCES
+MTZHZEOQKASVBDOWMWMKMNYIIHVWPEXJA -> EXPERIENCEISTHETEACHEROFALLTHINGS
+SQLIMXEEKSXMDOSBITOTYVECRDXSCRURZYPOHRG -> IMAGINATIONISMOREIMPORTANTTHANKNOWLEDGE
+LDWMEKPOPSWNOAVBIDHIPCEWAETYRVOAUPSINOVDIEDHCDSELHCCPVHRPOHZUSERSFS -> EDUCATIONISWHATREMAINSAFTERONEHASFORGOTTENWHATONEHASLEARNEDINSCHOOL
+VVVLZWWPBWHZDKBTXLDCGOTGTGRWAQWZSDHEMXLBELUMO -> INTELLECTUALSSOLVEPROBLEMSGENIUSESPREVENTTHEM
+The first 3 encrypted messages are decrypted quickly. 
+But its decryption time is slow after the 3rd message even though the encrypted messages are decrypted successfully. 
+The results show that the time increases slighlty for the first 5 messages, but its time decreases for the last message if you notice the terminal's results. 
+The message that has taken the longest time is the 5th message because it has taken 0.43532986999999995 seconds to decrypt the message.
+The performance/efficiency of this program shows that the password cracking is slow when the key length increases. 
+Therefore, this program proves that password cracking is not efficient since the it doesn't crack some messages quickly. 
+It doesn't take too much time, but the cracking is slow if the key length is long. 
+You can run the program for various times and get different values for time due to the time library, but the efficiency is always slow. 
+If there's a possible way to improve the efficiency of the program, then frequency analysis will work since it will find and try the letters with high occurences and decrypt the messages quickly.
+Then, the messages' cracking time will be fast since you don't need to use and test a key with a message and keep on repeating this process.

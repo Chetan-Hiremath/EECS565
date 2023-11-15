@@ -1,0 +1,24 @@
+SHELL=/bin/bash
+GTK_MODULES=appmenu-gtk-module
+PWD=/home/c743h357/Documents/MP3
+KRB5CCNAME=FILE:/tmp/krb5cc_100551617_TNKIAN
+LOGNAME=c743h357
+XDG_SESSION_TYPE=tty
+MOTD_SHOWN=pam
+HOME=/home/c743h357
+LANG=en_US.UTF-8
+SSH_CONNECTION=136.32.169.191 59091 129.237.87.113 22
+XDG_SESSION_CLASS=user
+TERM=xterm
+USER=c743h357
+SHLVL=1
+UBUNTU_MENUPROXY=1
+XDG_SESSION_ID=16047
+XDG_RUNTIME_DIR=/run/user/100551617
+SSH_CLIENT=136.32.169.191 59091 22
+XDG_DATA_DIRS=/usr/share/gnome:/home/c743h357/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop
+PATH=/opt/node-v16.17.1-linux-x64/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/c743h357/bin
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/100551617/bus
+SSH_TTY=/dev/pts/8
+_=./myprintenv
+OLDPWD=/home/c743h357/Documents
